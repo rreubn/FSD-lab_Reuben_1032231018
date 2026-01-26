@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Reuben Sam - Resume</title>
+
     <style>
         * {
             box-sizing: border-box;
@@ -23,6 +24,12 @@
         }
 
         /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
         .header h1 {
             margin: 0;
             font-size: 36px;
@@ -45,6 +52,15 @@
             margin-right: 15px;
         }
 
+        /* Profile Image */
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #1f78c8;
+        }
+
         /* Layout */
         .content {
             display: flex;
@@ -60,7 +76,7 @@
             width: 35%;
         }
 
-        /* Section styling */
+        /* Sections */
         .section {
             margin-bottom: 25px;
         }
@@ -73,7 +89,6 @@
             letter-spacing: 1px;
         }
 
-        /* Text */
         p {
             font-size: 14px;
             line-height: 1.6;
@@ -126,21 +141,29 @@
         }
     </style>
 </head>
+
 <body>
 
 <div class="resume">
 
-    <!-- Header -->
+    <!-- HEADER -->
     <div class="header">
-        <h1>REUBEN SAM</h1>
-        <h2>B.Tech Computer Science Engineering Student | MIT-WPU</h2>
-        <div class="contact">
-            <span>📞 +91 7900130480</span>
-            <span>📧 reuben.reni@mitwpu.edu.in</span>
-            <span>📍 Pune, India</span>
+        <div>
+            <h1>REUBEN SAM</h1>
+            <h2>B.Tech Computer Science Engineering Student | MIT-WPU</h2>
+            <div class="contact">
+                <span>📞 +91 7900130480</span>
+                <span>📧 reuben.reni@mitwpu.edu.in</span>
+                <span>📍 Pune, India</span>
+            </div>
+        </div>
+
+        <div>
+            <img src="profile.jpeg" alt="Reuben Sam" class="profile-pic">
         </div>
     </div>
 
+    <!-- CONTENT -->
     <div class="content">
 
         <!-- LEFT COLUMN -->
@@ -171,9 +194,9 @@
                 <p class="blue">Competitive Coder | Coding Contests & Hackathons</p>
                 <p class="meta">2022 – 2024 | Dubai / Pune</p>
                 <ul>
-                    <li>Participated in multiple coding competitions and inter-college events</li>
+                    <li>Participated in coding competitions and inter-college events</li>
                     <li>Applied data structures and algorithms in time-bound environments</li>
-                    <li>Developed small-scale software solutions for academic use</li>
+                    <li>Developed small-scale academic software solutions</li>
                 </ul>
             </div>
 
@@ -200,8 +223,8 @@
                 <div class="section-title">KEY ACHIEVEMENTS</div>
                 <p><strong>🏆 Global Innovators Challenge Representation</strong></p>
                 <p>
-                    Achieved recognition as a representative at the Global Innovators Challenge and consistently
-                    participated in coding competitions showcasing technical skills.
+                    Achieved recognition as a representative at the Global Innovators Challenge and
+                    consistent participation in coding competitions.
                 </p>
             </div>
 
