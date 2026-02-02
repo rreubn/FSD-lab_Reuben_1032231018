@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LOGO -->
+    <div class="logo">
+        <img src="MIT PNG.png" alt="MIT Logo">
+    </div>
+
+    <h2>Student Registration Form</h2>
+
+    <form onsubmit="return validateForm()">
+
+        <div class="field">
+            <label>Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <small id="nameError"></small>
+        </div>
+
+        <div class="field">
+            <label>Email</label>
+            <input type="text" id="email" placeholder="Enter your email">
+            <small id="emailError"></small>
+        </div>
+
+        <div class="field">
+            <label>Password</label>
+            <input type="password" id="password" placeholder="Enter password">
+            <small id="passwordError"></small>
+        </div>
+
+        <div class="field">
+            <label>Mobile Number</label>
+            <input type="text" id="mobile" placeholder="10-digit mobile number">
+            <small id="mobileError"></small>
+        </div>
+
+        <button type="submit">Register</button>
+
+    </form>
+</div>
+
+</body>
+</html>
