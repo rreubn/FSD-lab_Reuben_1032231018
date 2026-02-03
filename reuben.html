@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reuben Sam - Resume</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f5f5f5;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .resume {
+            max-width: 1000px;
+            margin: auto;
+            background: #ffffff;
+            padding: 40px;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+            letter-spacing: 1px;
+        }
+
+        .header h2 {
+            margin: 5px 0 10px;
+            font-size: 16px;
+            color: #1f78c8;
+            font-weight: normal;
+        }
+
+        .contact {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .contact span {
+            margin-right: 15px;
+        }
+
+        /* Profile Image */
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #1f78c8;
+        }
+
+        /* Layout */
+        .content {
+            display: flex;
+            margin-top: 30px;
+        }
+
+        .left {
+            width: 65%;
+            padding-right: 30px;
+        }
+
+        .right {
+            width: 35%;
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 5px 0;
+            color: #333;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 8px 0;
+        }
+
+        li {
+            font-size: 14px;
+            margin-bottom: 6px;
+        }
+
+        .sub-title {
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .blue {
+            color: #1f78c8;
+            font-weight: bold;
+        }
+
+        .meta {
+            font-size: 13px;
+            color: #666;
+        }
+
+        /* Skills */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+        }
+
+        .skill {
+            font-size: 14px;
+            border-bottom: 1px dotted #aaa;
+            padding-bottom: 3px;
+        }
+
+        .languages p {
+            border-bottom: 1px dotted #aaa;
+            padding-bottom: 5px;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="resume">
+
+    <!-- HEADER -->
+    <div class="header">
+        <div>
+            <h1>REUBEN SAM</h1>
+            <h2>B.Tech Computer Science Engineering Student | MIT-WPU</h2>
+            <div class="contact">
+                <span>📞 +91 7900130480</span>
+                <span>📧 reuben.reni@mitwpu.edu.in</span>
+                <span>📍 Pune, India</span>
+            </div>
+        </div>
+
+        <div>
+            <img src="profile.jpeg" alt="Reuben Sam" class="profile-pic">
+        </div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="content">
+
+        <!-- LEFT COLUMN -->
+        <div class="left">
+
+            <div class="section">
+                <div class="section-title">SUMMARY</div>
+                <p>
+                    I am a highly motivated Computer Engineering student with a passion for technology and innovation.
+                    With a strong foundation in coding and problem-solving, I actively participate in competitions that
+                    sharpen my analytical thinking and teamwork. My goal is to contribute my technical skills to tackle
+                    real-world challenges while continuing to learn and grow in the tech industry.
+                </p>
+            </div>
+
+            <div class="section">
+                <div class="section-title">EXPERIENCE</div>
+
+                <p class="sub-title">Selected Delegate</p>
+                <p class="blue">GIC</p>
+                <p class="meta">2019 | Dubai</p>
+                <ul>
+                    <li>Selected to represent institution at the prestigious Global Innovators Challenge</li>
+                    <li>Participated in international innovation-focused problem solving</li>
+                </ul>
+
+                <p class="sub-title">Participant</p>
+                <p class="blue">Competitive Coder | Coding Contests & Hackathons</p>
+                <p class="meta">2022 – 2024 | Dubai / Pune</p>
+                <ul>
+                    <li>Participated in coding competitions and inter-college events</li>
+                    <li>Applied data structures and algorithms in time-bound environments</li>
+                    <li>Developed small-scale academic software solutions</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">EDUCATION</div>
+
+                <p class="sub-title">B.Tech in Computer Science Engineering</p>
+                <p class="blue">MIT WPU</p>
+                <p class="meta">2023 – 2027 | Pune, India</p>
+
+                <br>
+
+                <p class="sub-title">High School</p>
+                <p class="blue">Our Own High School</p>
+                <p class="meta">2011 – 2023 | Sharjah, UAE</p>
+            </div>
+
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div class="right">
+
+            <div class="section">
+                <div class="section-title">KEY ACHIEVEMENTS</div>
+                <p><strong>🏆 Global Innovators Challenge Representation</strong></p>
+                <p>
+                    Achieved recognition as a representative at the Global Innovators Challenge and
+                    consistent participation in coding competitions.
+                </p>
+            </div>
+
+            <div class="section languages">
+                <div class="section-title">PROGRAMMING LANGUAGES</div>
+                <p>SQL</p>
+                <p>C / C++</p>
+                <p>Python</p>
+                <p>HTML</p>
+            </div>
+
+            <div class="section">
+                <div class="section-title">SKILLS</div>
+                <div class="skills-grid">
+                    <div class="skill">Communication</div>
+                    <div class="skill">Innovation</div>
+                    <div class="skill">Collaboration</div>
+                    <div class="skill">Problem Solving</div>
+                    <div class="skill">Teamwork</div>
+                    <div class="skill">Analytics</div>
+                    <div class="skill">Quick Learner</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
